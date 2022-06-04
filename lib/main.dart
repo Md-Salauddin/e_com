@@ -1,20 +1,13 @@
+import 'package:e_com/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Center(
-        child: Material(
-          child: Text("Flutter learning within 30 day's"),
-        ),
-      ),
-    );
+    return MaterialApp(home: HomePage());
   }
 }
